@@ -8,6 +8,7 @@ AllCops:
     - 'db/**/*'
     - 'app/controllers/admin/**/*'
     - 'app/dashboards/**/*'
+  TargetRubyVersion: 2.4
 
 Bundler/OrderedGems:
   Enabled: false
@@ -43,6 +44,9 @@ Style/Documentation:
   Enabled: false
 
 Style/DoubleNegation:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
   Enabled: false
 
 Style/ModuleFunction:

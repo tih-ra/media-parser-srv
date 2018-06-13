@@ -17,8 +17,7 @@ class MediaTag < ApplicationRecord
   end
 
   def apply_regexp(content)
-    return nil unless content.present?
-    content.gsub(Regexp.new(regexp_rule || ''), replace_rule || '')
+    content&.gsub(Regexp.new(regexp_rule || ''), replace_rule || '')
   end
 
   Nokogiri::XML::Element.class_eval do
