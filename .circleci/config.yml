@@ -41,8 +41,8 @@ jobs:
       - run: bundle exec rake db:schema:load
 
       - run:
-        name: run rubocop
-        command: bundle exec rubocop -R
+          name: run rubocop
+          command: bundle exec rubocop -R
 
       # run tests!
       - run:
