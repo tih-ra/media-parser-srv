@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  regexp_rule: MyString
+  media_object: one
+
+two:
+  name: MyString
+  regexp_rule: MyString
+  media_object: two
